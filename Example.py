@@ -1,3 +1,5 @@
+import sqlite3
+
 def update_task(conn, task):
     """
     update priority, begin_date, and end date of a task
